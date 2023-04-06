@@ -1,0 +1,4 @@
+rootProject.name = "JavaFxDemo2"
+include 'src:main:Server'
+findProject(':src:main:Server')?.name = 'Server'
+

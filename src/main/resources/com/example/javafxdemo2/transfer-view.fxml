@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="450.0" prefWidth="745.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxdemo2.TransferController">
+   <children>
+      <Button fx:id="transfer" layoutX="462.0" layoutY="341.0" mnemonicParsing="false" onAction="#onTransferClick" text="Transfer" />
+      <Button layoutX="329.0" layoutY="395.0" mnemonicParsing="false" onAction="#onBackClick" text="Back to Main" />
+      <ListView fx:id="myListView" layoutX="229.0" layoutY="71.0" prefHeight="259.0" prefWidth="284.0" />
+      <Label fx:id="transferLabel" layoutX="282.0" layoutY="23.0" text="Transfer Movies" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="receiverCompany" layoutX="200.0" layoutY="341.0" prefHeight="27.0" prefWidth="255.0" promptText="Enter Production Company Name" style="-fx-font-family: courier new; -fx-font-size: 20 px;">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+   </children>
+</AnchorPane>
