@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="450.0" prefWidth="745.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxdemo2.SearchMovieViewController">
+   <children>
+      <Button layoutX="602.0" layoutY="52.0" mnemonicParsing="false" onAction="#onTitleSearchClick" text="Search By Tittle" />
+      <Button layoutX="337.0" layoutY="52.0" mnemonicParsing="false" onAction="#onGenreSearchClick" text="Seach By Genre" />
+      <Button layoutX="472.0" layoutY="52.0" mnemonicParsing="false" onAction="#onYearSearchClick" text="Search By Year" />
+      <Button layoutX="30.0" layoutY="73.0" mnemonicParsing="false" onAction="#onFullListClick" prefHeight="27.0" prefWidth="104.0" text="Reload" />
+      <TextField fx:id="SearchBox" layoutX="207.0" layoutY="6.0" prefHeight="27.0" prefWidth="521.0" style="-fx-font-family: courier new; -fx-font-size: 20 px; -fx-font-weight: 400;">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <Button layoutX="574.0" layoutY="395.0" mnemonicParsing="false" onAction="#onBackClick" text="Back to Main Menu" />
+      <TableView fx:id="tableView" layoutY="125.0" prefHeight="262.0" prefWidth="745.0" />
+      <Label layoutX="48.0" layoutY="14.0" prefHeight="28.0" prefWidth="184.0" style="-fx-font-family: fantasy;" text="Search Movies: " textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

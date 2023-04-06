@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="745.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxdemo2.MenuController">
+   <children>
+      <Button layoutX="279.0" layoutY="65.0" mnemonicParsing="false" onAction="#onSearchClick" prefHeight="50.0" prefWidth="187.0" style="-fx-font-family: courier new; -fx-font-size: 17 px; -fx-text-fill: white;" text="Search Movie" />
+      <Button layoutX="279.0" layoutY="135.0" mnemonicParsing="false" onAction="#onTransferClick" prefHeight="50.0" prefWidth="187.0" style="-fx-font-family: courier new; -fx-font-size: 17px; -fx-text-fill: white;" text="Transfer Movie" />
+      <Button fx:id="addMovie" layoutX="279.0" layoutY="205.0" mnemonicParsing="false" onAction="#addMovieClick" prefHeight="50.0" prefWidth="187.0" style="-fx-text-fill: white; -fx-font-family: courier new; -fx-font-size: 17 px;" text="Add Movie" />
+      <Button layoutX="279.0" layoutY="275.0" maxHeight="50.0" maxWidth="187.0" mnemonicParsing="false" onAction="#onTotalProfitClick" prefHeight="50.0" prefWidth="187.0" style="-fx-text-fill: white; -fx-font-family: courier new; -fx-font-size: 17 px;" text="Total Profit" />
+      <Button layoutX="279.0" layoutY="350.0" mnemonicParsing="false" onAction="#onLogoutButtonClick" prefHeight="50.0" prefWidth="187.0" style="-fx-text-fill: white; -fx-font-family: courier new; -fx-font-size: 17 px;" text="Logout" />
+   </children>
+</AnchorPane>

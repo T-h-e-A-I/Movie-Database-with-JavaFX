@@ -1,0 +1,174 @@
+.root{
+    -fx-background-image: url("Bg2.jpeg");
+}
+.table-view Text{
+    -fx-font-family: courier new;
+}
+.table-view{
+    -fx-background-color: transparent;
+
+}
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+
+}
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color:
+                        linear-gradient(#ffd65b, #e68400),
+                        linear-gradient(#ffef84, #f2ba44),
+                        linear-gradient(#ffea6a, #efaa22),
+                        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+                        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-text-fill: #93f9b1;
+    -fx-background-insets: 0 0 0 0;
+    -fx-padding: 0 0 5px 0;
+
+
+}
+.table-view .column-header {
+    -fx-background-color: transparent;
+
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+
+}
+.table-view .table-cell: hover{
+    -fx-text-fill: white;
+}
+.table-row-cell: hover {
+    -fx-background-color: #93f9b911;
+    -fx-text-background-color: red;
+    -fx-text-fill: red;
+}
+.table-row-cell: odd{
+    -fx-background-color:
+                    linear-gradient(#ffd65b, #e68400),
+                    linear-gradient(#ffef84, #f2ba44),
+                    linear-gradient(#ffea6a, #efaa22),
+                    linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+                    linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-insets: 0, 0 0 1 0;
+}
+.table-row-cell: even{
+     -fx-background-color:
+            #ecebe9,
+            rgba(0,0,0,0.05),
+            linear-gradient(#dcca8a, #c7a740),
+            linear-gradient(#f9f2d6 0%, #f4e5bc 20%, #e6c75d 80%, #e2c045 100%),
+            linear-gradient(#f6ebbe, #e6c34d);
+    -fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+    -fx-text-fill: white;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+.table-view .virtual-flow .scroll-bar .increment-button,
+.table-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  linear-gradient(to bottom, #1dbbdd44, #93f9b944);
+}
+.table-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color:  linear-gradient(to right, #1dbbdd44, #93f9b944);
+}
+
+.table-row-cell: highlighted {
+    -fx-background-color: #81c483;
+    -fx-background-radius: 15px;
+}
+.button {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill : white;
+}
+.button:hover {
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+.button:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+.button Text {
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+}
+#Search{
+    -fx-font-family: fantasy;
+    -fx-text-fill: white;
+}
+.text-field {
+    -fx-font-family: "Arial";
+    -fx-font-size: 13px;
+    -fx-text-fill: -fx-text-inner-color;
+    -fx-highlight-fill: derive(-fx-control-inner-background,-20%);
+    -fx-highlight-text-fill: -fx-text-inner-color;
+    -fx-prompt-text-fill: transparent;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-border-color: transparent transparent #616161 transparent;
+    -fx-border-width: 1;
+    -fx-border-insets: 0 0 1 0;
+    -fx-border-style: hidden hidden solid hidden;
+    -fx-cursor: text;
+    -fx-padding: 0.166667em 0em 0.333333em 0em;
+}
+.text-field:focused {
+    -fx-highlight-fill: transparent;
+    -fx-highlight-text-fill: white;
+    -fx-text-fill: -fx-text-inner-color;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent white transparent;
+    -fx-border-width: 2;
+    -fx-border-insets: 0 0 2 -1;
+    -fx-prompt-text-fill: transparent;
+    -fx-padding: 2 0 4 0;
+}
+.text-field:readonly {
+    -fx-background-color: transparent;
+    -fx-text-fill: derive(-fx-text-base-color, 35%);
+    -fx-border-style: segments(2, 3)  line-cap butt;
+    -fx-border-color: transparent transparent #616161 transparent;
+}
+.text-field:focused:readonly {
+    -fx-text-fill: derive(-fx-text-base-color, 35%);
+    -fx-border-style: segments(2, 3)  line-cap butt;
+    -fx-border-color: transparent transparent white transparent;
+}
+.text-field:disabled {
+    -fx-opacity: 0.46;
+    -fx-border-style: segments(2, 3)  line-cap butt;
+    -fx-border-color: transparent transparent black transparent;
+}

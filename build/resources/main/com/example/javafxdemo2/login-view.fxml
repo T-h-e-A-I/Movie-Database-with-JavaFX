@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="450.0" prefWidth="757.0" style="-fx-background-color: #40E0D0;" stylesheets="@login-application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxdemo2.LoginController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <HBox prefHeight="30.0" prefWidth="212.0" />
+      <HBox layoutX="244.0" layoutY="149.0" prefHeight="30.0" prefWidth="212.0" />
+      <Button layoutX="299.0" layoutY="293.0" mnemonicParsing="false" onAction="#onLoginButtonClick" prefHeight="38.0" prefWidth="151.0" style="-fx-text-fill: white; -fx-font-family: courier new; -fx-font-size: 17 px;" text="LOG IN" textFill="WHITE" />
+      <Button layoutX="299.0" layoutY="342.0" mnemonicParsing="false" onAction="#onExitButtonClick" prefHeight="38.0" prefWidth="151.0" style="-fx-text-fill: white; -fx-font-family: courier new; -fx-font-size: 17px;" text="EXIT" />
+      <Label layoutX="53.0" layoutY="204.0" prefHeight="30.0" prefWidth="166.0" style="-fx-font-family: courier new; -fx-font-size: 25px;" text="Password:" textFill="WHITE" />
+      <TextField fx:id="companyName" layoutX="368.0" layoutY="132.0" prefHeight="34.0" prefWidth="334.0" style="-fx-font-family: courier new; -fx-font-size: 20px; -fx-font-weight: 500;">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <Label layoutX="53.0" layoutY="134.0" prefHeight="30.0" prefWidth="321.0" style="-fx-font-family: courier new; -fx-font-size: 25px;" text="Production Company Name:" textFill="WHITE">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <PasswordField layoutX="368.0" layoutY="199.0" prefHeight="27.0" prefWidth="334.0" style="-fx-font-family: courier new; -fx-font-size: 20 px;">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </PasswordField>
+   </children>
+</AnchorPane>
